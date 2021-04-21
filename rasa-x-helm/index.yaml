@@ -1,0 +1,2238 @@
+apiVersion: v1
+entries:
+  rasa-x:
+  - apiVersion: v2
+    appVersion: 0.38.1
+    created: "2021-04-20T09:23:01.316828756Z"
+    dependencies:
+    - condition: postgresql.install
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: ~8.6.4
+    - condition: redis.install
+      name: redis
+      repository: https://charts.bitnami.com/bitnami
+      version: ~10.5.12
+    - condition: rabbitmq.install
+      name: rabbitmq
+      repository: https://charts.bitnami.com/bitnami
+      version: ~6.19.2
+    description: Rasa X Helm chart for Kubernetes / Openshift
+    digest: 3f042075449ddacf8265d18496efd4752d3e7de1832e9794d137ce4df5143db5
+    home: https://github.com/RasaHQ/rasa-x-helm
+    icon: https://rasa.com/static/rasa-logo-square-ef3444fc36faec97ae8bd7bfb568996d.svg
+    keywords:
+    - Rasa
+    - AI Assistants
+    - Chatbot
+    - Rasa X
+    maintainers:
+    - email: tom@rasa.com
+      name: tmbo
+      url: https://rasa.com
+    name: rasa-x
+    urls:
+    - https://github.com/RasaHQ/rasa-x-helm/releases/download/rasa-x-1.8.8/rasa-x-1.8.8.tgz
+    version: 1.8.8
+  - apiVersion: v2
+    appVersion: 0.38.1
+    created: "2021-04-19T14:18:44.768310627Z"
+    dependencies:
+    - condition: postgresql.install
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: ~8.6.4
+    - condition: redis.install
+      name: redis
+      repository: https://charts.bitnami.com/bitnami
+      version: ~10.5.12
+    - condition: rabbitmq.install
+      name: rabbitmq
+      repository: https://charts.bitnami.com/bitnami
+      version: ~6.19.2
+    description: Rasa X Helm chart for Kubernetes / Openshift
+    digest: 0c5d9f800ef64d1efd30c4a17b17cd2268cc95a5cc3d1c2a3357cd9317985fd5
+    home: https://github.com/RasaHQ/rasa-x-helm
+    icon: https://rasa.com/static/rasa-logo-square-ef3444fc36faec97ae8bd7bfb568996d.svg
+    keywords:
+    - Rasa
+    - AI Assistants
+    - Chatbot
+    - Rasa X
+    maintainers:
+    - email: tom@rasa.com
+      name: tmbo
+      url: https://rasa.com
+    name: rasa-x
+    urls:
+    - https://github.com/RasaHQ/rasa-x-helm/releases/download/rasa-x-1.8.7/rasa-x-1.8.7.tgz
+    version: 1.8.7
+  - apiVersion: v2
+    appVersion: 0.38.1
+    created: "2021-04-15T10:30:57.245812504Z"
+    dependencies:
+    - condition: postgresql.install
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: ~8.6.4
+    - condition: redis.install
+      name: redis
+      repository: https://charts.bitnami.com/bitnami
+      version: ~10.5.12
+    - condition: rabbitmq.install
+      name: rabbitmq
+      repository: https://charts.bitnami.com/bitnami
+      version: ~6.19.2
+    description: Rasa X Helm chart for Kubernetes / Openshift
+    digest: 87e3a8b16f40c73e5d2104ef10a7c61c37eb60fea73fb6a54048eda17adb5f42
+    home: https://github.com/RasaHQ/rasa-x-helm
+    icon: https://rasa.com/static/rasa-logo-square-ef3444fc36faec97ae8bd7bfb568996d.svg
+    keywords:
+    - Rasa
+    - AI Assistants
+    - Chatbot
+    - Rasa X
+    maintainers:
+    - email: tom@rasa.com
+      name: tmbo
+      url: https://rasa.com
+    name: rasa-x
+    urls:
+    - https://github.com/RasaHQ/rasa-x-helm/releases/download/rasa-x-1.8.6/rasa-x-1.8.6.tgz
+    version: 1.8.6
+  - apiVersion: v2
+    appVersion: 0.38.1
+    created: "2021-04-07T09:32:54.30361809Z"
+    dependencies:
+    - condition: postgresql.install
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: ~8.6.4
+    - condition: redis.install
+      name: redis
+      repository: https://charts.bitnami.com/bitnami
+      version: ~10.5.12
+    - condition: rabbitmq.install
+      name: rabbitmq
+      repository: https://charts.bitnami.com/bitnami
+      version: ~6.19.2
+    description: Rasa X Helm chart for Kubernetes / Openshift
+    digest: 4dca36ba222013a6feba8f5df61dad5588c17edb95b6109c77c491782f72e195
+    home: https://github.com/RasaHQ/rasa-x-helm
+    icon: https://rasa.com/static/rasa-logo-square-ef3444fc36faec97ae8bd7bfb568996d.svg
+    keywords:
+    - Rasa
+    - AI Assistants
+    - Chatbot
+    - Rasa X
+    maintainers:
+    - email: tom@rasa.com
+      name: tmbo
+      url: https://rasa.com
+    name: rasa-x
+    urls:
+    - https://github.com/RasaHQ/rasa-x-helm/releases/download/rasa-x-1.8.5/rasa-x-1.8.5.tgz
+    version: 1.8.5
+  - apiVersion: v2
+    appVersion: 0.38.1
+    created: "2021-04-06T06:23:05.804305337Z"
+    dependencies:
+    - condition: postgresql.install
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: ~8.6.4
+    - condition: redis.install
+      name: redis
+      repository: https://charts.bitnami.com/bitnami
+      version: ~10.5.12
+    - condition: rabbitmq.install
+      name: rabbitmq
+      repository: https://charts.bitnami.com/bitnami
+      version: ~6.19.2
+    description: Rasa X Helm chart for Kubernetes / Openshift
+    digest: 1a8729481091d51cf7773a225fd3c0c91fb2091d3800795bcd9c93be27bfe8ac
+    home: https://github.com/RasaHQ/rasa-x-helm
+    icon: https://rasa.com/static/rasa-logo-square-ef3444fc36faec97ae8bd7bfb568996d.svg
+    keywords:
+    - Rasa
+    - AI Assistants
+    - Chatbot
+    - Rasa X
+    maintainers:
+    - email: tom@rasa.com
+      name: tmbo
+      url: https://rasa.com
+    name: rasa-x
+    urls:
+    - https://github.com/RasaHQ/rasa-x-helm/releases/download/rasa-x-1.8.4/rasa-x-1.8.4.tgz
+    version: 1.8.4
+  - apiVersion: v2
+    appVersion: 0.38.0
+    created: "2021-03-25T13:14:38.939353061Z"
+    dependencies:
+    - condition: postgresql.install
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: ~8.6.4
+    - condition: redis.install
+      name: redis
+      repository: https://charts.bitnami.com/bitnami
+      version: ~10.5.12
+    - condition: rabbitmq.install
+      name: rabbitmq
+      repository: https://charts.bitnami.com/bitnami
+      version: ~6.19.2
+    description: Rasa X Helm chart for Kubernetes / Openshift
+    digest: 0e009d0bc50ca3011e84717a8588157680633d867df9969e2bc0a4c886b16e0a
+    home: https://github.com/RasaHQ/rasa-x-helm
+    icon: https://rasa.com/static/rasa-logo-square-ef3444fc36faec97ae8bd7bfb568996d.svg
+    keywords:
+    - Rasa
+    - AI Assistants
+    - Chatbot
+    - Rasa X
+    maintainers:
+    - email: tom@rasa.com
+      name: tmbo
+      url: https://rasa.com
+    name: rasa-x
+    urls:
+    - https://github.com/RasaHQ/rasa-x-helm/releases/download/rasa-x-1.8.2/rasa-x-1.8.2.tgz
+    version: 1.8.2
+  - apiVersion: v2
+    appVersion: 0.35.0
+    created: "2021-03-06T16:50:44.726778432Z"
+    dependencies:
+    - condition: postgresql.install
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: ~8.6.4
+    - condition: redis.install
+      name: redis
+      repository: https://charts.bitnami.com/bitnami
+      version: ~10.5.12
+    - condition: rabbitmq.install
+      name: rabbitmq
+      repository: https://charts.bitnami.com/bitnami
+      version: ~6.19.2
+    description: Rasa X Helm chart for Kubernetes / Openshift
+    digest: d3dad0d31a2218a9e29e446755fd0a39fd7edd5c0d29e2b98cebc8a4fb896a8d
+    home: https://github.com/RasaHQ/rasa-x-helm
+    icon: https://rasa.com/static/rasa-logo-square-ef3444fc36faec97ae8bd7bfb568996d.svg
+    keywords:
+    - Rasa
+    - AI Assistants
+    - Chatbot
+    - Rasa X
+    maintainers:
+    - email: tom@rasa.com
+      name: tmbo
+      url: https://rasa.com
+    name: rasa-x
+    urls:
+    - https://github.com/RasaHQ/rasa-x-helm/releases/download/rasa-x-1.8.1/rasa-x-1.8.1.tgz
+    version: 1.8.1
+  - apiVersion: v2
+    appVersion: 0.35.0
+    created: "2021-02-26T14:50:57.054298749Z"
+    dependencies:
+    - condition: postgresql.install
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: ~8.6.4
+    - condition: redis.install
+      name: redis
+      repository: https://charts.bitnami.com/bitnami
+      version: ~10.5.12
+    - condition: rabbitmq.install
+      name: rabbitmq
+      repository: https://charts.bitnami.com/bitnami
+      version: ~6.19.2
+    description: Rasa X Helm chart for Kubernetes / Openshift
+    digest: e2fb0c39ad10274370b8aef1d1ef32b4fc32f932605092cce1fddc49149f5584
+    home: https://github.com/RasaHQ/rasa-x-helm
+    icon: https://rasa.com/static/rasa-logo-square-ef3444fc36faec97ae8bd7bfb568996d.svg
+    keywords:
+    - Rasa
+    - AI Assistants
+    - Chatbot
+    - Rasa X
+    maintainers:
+    - email: tom@rasa.com
+      name: tmbo
+      url: https://rasa.com
+    name: rasa-x
+    urls:
+    - https://github.com/RasaHQ/rasa-x-helm/releases/download/rasa-x-1.8.0/rasa-x-1.8.0.tgz
+    version: 1.8.0
+  - apiVersion: v2
+    appVersion: 0.35.0
+    created: "2021-02-26T09:16:43.387718732Z"
+    dependencies:
+    - condition: postgresql.install
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: ~8.6.4
+    - condition: redis.install
+      name: redis
+      repository: https://charts.bitnami.com/bitnami
+      version: ~10.5.12
+    - condition: rabbitmq.install
+      name: rabbitmq
+      repository: https://charts.bitnami.com/bitnami
+      version: ~6.19.2
+    description: Rasa X Helm chart for Kubernetes / Openshift
+    digest: 677b8b660fe9bf2c107e45a14a789668c47e8dfef1c9efcb4f6efb5a8dd28075
+    home: https://github.com/RasaHQ/rasa-x-helm
+    icon: https://rasa.com/static/rasa-logo-square-ef3444fc36faec97ae8bd7bfb568996d.svg
+    keywords:
+    - Rasa
+    - AI Assistants
+    - Chatbot
+    - Rasa X
+    maintainers:
+    - email: tom@rasa.com
+      name: tmbo
+      url: https://rasa.com
+    name: rasa-x
+    urls:
+    - https://github.com/RasaHQ/rasa-x-helm/releases/download/rasa-x-1.7.21/rasa-x-1.7.21.tgz
+    version: 1.7.21
+  - apiVersion: v2
+    appVersion: 0.35.0
+    created: "2021-02-24T16:47:53.903223816Z"
+    dependencies:
+    - condition: postgresql.install
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: ~8.6.4
+    - condition: redis.install
+      name: redis
+      repository: https://charts.bitnami.com/bitnami
+      version: ~10.5.12
+    - condition: rabbitmq.install
+      name: rabbitmq
+      repository: https://charts.bitnami.com/bitnami
+      version: ~6.19.2
+    description: Rasa X Helm chart for Kubernetes / Openshift
+    digest: 44f005c8346f872aab0ef965d06276ce469b6bb74581a428b0ead7879bc18374
+    home: https://github.com/RasaHQ/rasa-x-helm
+    icon: https://rasa.com/static/rasa-logo-square-ef3444fc36faec97ae8bd7bfb568996d.svg
+    keywords:
+    - Rasa
+    - AI Assistants
+    - Chatbot
+    - Rasa X
+    maintainers:
+    - email: tom@rasa.com
+      name: tmbo
+      url: https://rasa.com
+    name: rasa-x
+    urls:
+    - https://github.com/RasaHQ/rasa-x-helm/releases/download/rasa-x-1.7.20/rasa-x-1.7.20.tgz
+    version: 1.7.20
+  - apiVersion: v2
+    appVersion: 0.35.0
+    created: "2021-02-03T09:41:40.331666083Z"
+    dependencies:
+    - condition: postgresql.install
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: ~8.6.4
+    - condition: redis.install
+      name: redis
+      repository: https://charts.bitnami.com/bitnami
+      version: ~10.5.12
+    - condition: rabbitmq.install
+      name: rabbitmq
+      repository: https://charts.bitnami.com/bitnami
+      version: ~6.19.2
+    description: Rasa X Helm chart for Kubernetes / Openshift
+    digest: 13d2e96af9884290f3faf277876cdda64ab4b822d837c7ab9b411eaf03f30ef9
+    home: https://github.com/RasaHQ/rasa-x-helm
+    icon: https://rasa.com/static/rasa-logo-square-ef3444fc36faec97ae8bd7bfb568996d.svg
+    keywords:
+    - Rasa
+    - AI Assistants
+    - Chatbot
+    - Rasa X
+    maintainers:
+    - email: tom@rasa.com
+      name: tmbo
+      url: https://rasa.com
+    name: rasa-x
+    urls:
+    - https://github.com/RasaHQ/rasa-x-helm/releases/download/rasa-x-1.7.19/rasa-x-1.7.19.tgz
+    version: 1.7.19
+  - apiVersion: v2
+    appVersion: 0.35.0
+    created: "2021-02-02T08:29:33.427201453Z"
+    dependencies:
+    - condition: postgresql.install
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: ~8.6.4
+    - condition: redis.install
+      name: redis
+      repository: https://charts.bitnami.com/bitnami
+      version: ~10.5.12
+    - condition: rabbitmq.install
+      name: rabbitmq
+      repository: https://charts.bitnami.com/bitnami
+      version: ~6.19.2
+    description: Rasa X Helm chart for Kubernetes / Openshift
+    digest: 3c74ab22e6a450b184e23f9d739991baa06c7512266786adb37444122df9d149
+    home: https://github.com/RasaHQ/rasa-x-helm
+    icon: https://rasa.com/static/rasa-logo-square-ef3444fc36faec97ae8bd7bfb568996d.svg
+    keywords:
+    - Rasa
+    - AI Assistants
+    - Chatbot
+    - Rasa X
+    maintainers:
+    - email: tom@rasa.com
+      name: tmbo
+      url: https://rasa.com
+    name: rasa-x
+    urls:
+    - https://github.com/RasaHQ/rasa-x-helm/releases/download/rasa-x-1.7.18/rasa-x-1.7.18.tgz
+    version: 1.7.18
+  - apiVersion: v2
+    appVersion: 0.35.0
+    created: "2021-01-26T10:37:12.344185377Z"
+    dependencies:
+    - condition: postgresql.install
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: ~8.6.4
+    - condition: redis.install
+      name: redis
+      repository: https://charts.bitnami.com/bitnami
+      version: ~10.5.12
+    - condition: rabbitmq.install
+      name: rabbitmq
+      repository: https://charts.bitnami.com/bitnami
+      version: ~6.19.2
+    description: Rasa X Helm chart for Kubernetes / Openshift
+    digest: abefdbf99a0204f3d6c1e72a180e0a8e5ff698d814c0a613047268c23ffac998
+    home: https://github.com/RasaHQ/rasa-x-helm
+    icon: https://rasa.com/static/rasa-logo-square-ef3444fc36faec97ae8bd7bfb568996d.svg
+    keywords:
+    - Rasa
+    - AI Assistants
+    - Chatbot
+    - Rasa X
+    maintainers:
+    - email: tom@rasa.com
+      name: tmbo
+      url: https://rasa.com
+    name: rasa-x
+    urls:
+    - https://github.com/RasaHQ/rasa-x-helm/releases/download/rasa-x-1.7.17/rasa-x-1.7.17.tgz
+    version: 1.7.17
+  - apiVersion: v2
+    appVersion: 0.35.0
+    created: "2021-01-25T16:25:57.188643854Z"
+    dependencies:
+    - condition: postgresql.install
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: ~8.6.4
+    - condition: redis.install
+      name: redis
+      repository: https://charts.bitnami.com/bitnami
+      version: ~10.5.12
+    - condition: rabbitmq.install
+      name: rabbitmq
+      repository: https://charts.bitnami.com/bitnami
+      version: ~6.19.2
+    description: Rasa X Helm chart for Kubernetes / Openshift
+    digest: 3087d3953a074c1b25856cf57b7c0e2aad910014bea2daccc457b9711a16c6bc
+    home: https://github.com/RasaHQ/rasa-x-helm
+    icon: https://rasa.com/static/rasa-logo-square-ef3444fc36faec97ae8bd7bfb568996d.svg
+    keywords:
+    - Rasa
+    - AI Assistants
+    - Chatbot
+    - Rasa X
+    maintainers:
+    - email: tom@rasa.com
+      name: tmbo
+      url: https://rasa.com
+    name: rasa-x
+    urls:
+    - https://github.com/RasaHQ/rasa-x-helm/releases/download/rasa-x-1.7.16/rasa-x-1.7.16.tgz
+    version: 1.7.16
+  - apiVersion: v2
+    appVersion: 0.35.0
+    created: "2021-01-25T15:26:10.725793953Z"
+    dependencies:
+    - condition: postgresql.install
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: ~8.6.4
+    - condition: redis.install
+      name: redis
+      repository: https://charts.bitnami.com/bitnami
+      version: ~10.5.12
+    - condition: rabbitmq.install
+      name: rabbitmq
+      repository: https://charts.bitnami.com/bitnami
+      version: ~6.19.2
+    description: Rasa X Helm chart for Kubernetes / Openshift
+    digest: 0b56d4ba67282ca0860d306d044ed51aaf5409a6ac748d8924c0870e711ccb35
+    home: https://github.com/RasaHQ/rasa-x-helm
+    icon: https://rasa.com/static/rasa-logo-square-ef3444fc36faec97ae8bd7bfb568996d.svg
+    keywords:
+    - Rasa
+    - AI Assistants
+    - Chatbot
+    - Rasa X
+    maintainers:
+    - email: tom@rasa.com
+      name: tmbo
+      url: https://rasa.com
+    name: rasa-x
+    urls:
+    - https://github.com/RasaHQ/rasa-x-helm/releases/download/rasa-x-1.7.15/rasa-x-1.7.15.tgz
+    version: 1.7.15
+  - apiVersion: v2
+    appVersion: 0.33.0
+    created: "2021-01-15T11:11:49.480739352Z"
+    dependencies:
+    - condition: postgresql.install
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: ~8.6.4
+    - condition: redis.install
+      name: redis
+      repository: https://charts.bitnami.com/bitnami
+      version: ~10.5.12
+    - condition: rabbitmq.install
+      name: rabbitmq
+      repository: https://charts.bitnami.com/bitnami
+      version: ~6.19.2
+    description: Rasa X Helm chart for Kubernetes / Openshift
+    digest: e627b67de9d13078ba246409db5624e141eacdc6b77cc89ac1c6a825ba31222c
+    home: https://github.com/RasaHQ/rasa-x-helm
+    icon: https://rasa.com/static/rasa-logo-square-ef3444fc36faec97ae8bd7bfb568996d.svg
+    keywords:
+    - Rasa
+    - AI Assistants
+    - Chatbot
+    - Rasa X
+    maintainers:
+    - email: tom@rasa.com
+      name: tmbo
+      url: https://rasa.com
+    name: rasa-x
+    urls:
+    - https://github.com/RasaHQ/rasa-x-helm/releases/download/rasa-x-1.7.14/rasa-x-1.7.14.tgz
+    version: 1.7.14
+  - apiVersion: v2
+    appVersion: 0.33.0
+    created: "2021-01-13T15:54:19.367121917Z"
+    dependencies:
+    - condition: postgresql.install
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: ~8.6.4
+    - condition: redis.install
+      name: redis
+      repository: https://charts.bitnami.com/bitnami
+      version: ~10.5.12
+    - condition: rabbitmq.install
+      name: rabbitmq
+      repository: https://charts.bitnami.com/bitnami
+      version: ~6.19.2
+    description: Rasa X Helm chart for Kubernetes / Openshift
+    digest: d8d6fd183561a41a2377acfceca6b8216e5c637f16021a8ee946b1ff4b95ab60
+    home: https://github.com/RasaHQ/rasa-x-helm
+    icon: https://rasa.com/static/rasa-logo-square-ef3444fc36faec97ae8bd7bfb568996d.svg
+    keywords:
+    - Rasa
+    - AI Assistants
+    - Chatbot
+    - Rasa X
+    maintainers:
+    - email: tom@rasa.com
+      name: tmbo
+      url: https://rasa.com
+    name: rasa-x
+    urls:
+    - https://github.com/RasaHQ/rasa-x-helm/releases/download/rasa-x-1.7.13/rasa-x-1.7.13.tgz
+    version: 1.7.13
+  - apiVersion: v2
+    appVersion: 0.33.0
+    created: "2021-01-08T13:17:50.554573319Z"
+    dependencies:
+    - condition: postgresql.install
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: ~8.6.4
+    - condition: redis.install
+      name: redis
+      repository: https://charts.bitnami.com/bitnami
+      version: ~10.5.12
+    - condition: rabbitmq.install
+      name: rabbitmq
+      repository: https://charts.bitnami.com/bitnami
+      version: ~6.19.2
+    description: Rasa X Helm chart for Kubernetes / Openshift
+    digest: fb4c5e1ca0698d7a6d7f40649ffe72b4d7bae2616a21e8fa20f589ff5363f52c
+    home: https://github.com/RasaHQ/rasa-x-helm
+    icon: https://rasa.com/static/rasa-logo-square-ef3444fc36faec97ae8bd7bfb568996d.svg
+    keywords:
+    - Rasa
+    - AI Assistants
+    - Chatbot
+    - Rasa X
+    maintainers:
+    - email: tom@rasa.com
+      name: tmbo
+      url: https://rasa.com
+    name: rasa-x
+    urls:
+    - https://github.com/RasaHQ/rasa-x-helm/releases/download/rasa-x-1.7.12/rasa-x-1.7.12.tgz
+    version: 1.7.12
+  - apiVersion: v2
+    appVersion: 0.33.0
+    created: "2020-12-01T15:04:27.955062545Z"
+    dependencies:
+    - condition: postgresql.install
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: ~8.6.4
+    - condition: redis.install
+      name: redis
+      repository: https://charts.bitnami.com/bitnami
+      version: ~10.5.12
+    - condition: rabbitmq.install
+      name: rabbitmq
+      repository: https://charts.bitnami.com/bitnami
+      version: ~6.19.2
+    description: Rasa X Helm chart for Kubernetes / Openshift
+    digest: 20eb3735dd1b93dad4db07285e26e925d1937f2704c91c91a5fb7e4e592958a3
+    home: https://github.com/RasaHQ/rasa-x-helm
+    icon: https://rasa.com/static/rasa-logo-square-ef3444fc36faec97ae8bd7bfb568996d.svg
+    keywords:
+    - Rasa
+    - AI Assistants
+    - Chatbot
+    - Rasa X
+    maintainers:
+    - email: tom@rasa.com
+      name: tmbo
+      url: https://rasa.com
+    name: rasa-x
+    urls:
+    - https://github.com/RasaHQ/rasa-x-helm/releases/download/rasa-x-1.7.11/rasa-x-1.7.11.tgz
+    version: 1.7.11
+  - apiVersion: v2
+    appVersion: 0.33.0
+    created: "2020-11-25T14:02:59.497188138Z"
+    dependencies:
+    - condition: postgresql.install
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: ~8.6.4
+    - condition: redis.install
+      name: redis
+      repository: https://charts.bitnami.com/bitnami
+      version: ~10.5.12
+    - condition: rabbitmq.install
+      name: rabbitmq
+      repository: https://charts.bitnami.com/bitnami
+      version: ~6.19.2
+    description: Rasa X Helm chart for Kubernetes / Openshift
+    digest: 8e94d2861869303c0a97054c6a6354878b7df81b36c48c797871f4733b3e27a5
+    home: https://github.com/RasaHQ/rasa-x-helm
+    icon: https://rasa.com/static/rasa-logo-square-ef3444fc36faec97ae8bd7bfb568996d.svg
+    keywords:
+    - Rasa
+    - AI Assistants
+    - Chatbot
+    - Rasa X
+    maintainers:
+    - email: tom@rasa.com
+      name: tmbo
+      url: https://rasa.com
+    name: rasa-x
+    urls:
+    - https://github.com/RasaHQ/rasa-x-helm/releases/download/rasa-x-1.7.10/rasa-x-1.7.10.tgz
+    version: 1.7.10
+  - apiVersion: v2
+    appVersion: 0.33.0
+    created: "2020-11-24T15:46:56.656696196Z"
+    dependencies:
+    - condition: postgresql.install
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: ~8.6.4
+    - condition: redis.install
+      name: redis
+      repository: https://charts.bitnami.com/bitnami
+      version: ~10.5.12
+    - condition: rabbitmq.install
+      name: rabbitmq
+      repository: https://charts.bitnami.com/bitnami
+      version: ~6.19.2
+    description: Rasa X Helm chart for Kubernetes / Openshift
+    digest: 41947771b994458db86adbaf5fab535f6998d7bd02e3af387ae644e06c117f3b
+    home: https://github.com/RasaHQ/rasa-x-helm
+    icon: https://rasa.com/static/rasa-logo-square-ef3444fc36faec97ae8bd7bfb568996d.svg
+    keywords:
+    - Rasa
+    - AI Assistants
+    - Chatbot
+    - Rasa X
+    maintainers:
+    - email: tom@rasa.com
+      name: tmbo
+      url: https://rasa.com
+    name: rasa-x
+    urls:
+    - https://github.com/RasaHQ/rasa-x-helm/releases/download/rasa-x-1.7.9/rasa-x-1.7.9.tgz
+    version: 1.7.9
+  - apiVersion: v2
+    appVersion: 0.33.0
+    created: "2020-11-18T15:27:36.850432973Z"
+    dependencies:
+    - condition: postgresql.install
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: ~8.6.4
+    - condition: redis.install
+      name: redis
+      repository: https://charts.bitnami.com/bitnami
+      version: ~10.5.12
+    - condition: rabbitmq.install
+      name: rabbitmq
+      repository: https://charts.bitnami.com/bitnami
+      version: ~6.19.2
+    description: Rasa X Helm chart for Kubernetes / Openshift
+    digest: 5bfda5181c922a628f6091dd79c60eb28199672273049459a436535262717396
+    home: https://github.com/RasaHQ/rasa-x-helm
+    icon: https://rasa.com/static/rasa-logo-square-ef3444fc36faec97ae8bd7bfb568996d.svg
+    keywords:
+    - Rasa
+    - AI Assistants
+    - Chatbot
+    - Rasa X
+    maintainers:
+    - email: tom@rasa.com
+      name: tmbo
+      url: https://rasa.com
+    name: rasa-x
+    urls:
+    - https://github.com/RasaHQ/rasa-x-helm/releases/download/rasa-x-1.7.8/rasa-x-1.7.8.tgz
+    version: 1.7.8
+  - apiVersion: v2
+    appVersion: 0.33.0
+    created: "2020-11-16T11:37:09.295255687Z"
+    dependencies:
+    - condition: postgresql.install
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: ~8.6.4
+    - condition: redis.install
+      name: redis
+      repository: https://charts.bitnami.com/bitnami
+      version: ~10.5.12
+    - condition: rabbitmq.install
+      name: rabbitmq
+      repository: https://charts.bitnami.com/bitnami
+      version: ~6.19.2
+    description: Rasa X Helm chart for Kubernetes / Openshift
+    digest: 7a9a87828e4bdf945f3defdbe249b8879bb5efcd71408183cbb40b0eaea62150
+    home: https://github.com/RasaHQ/rasa-x-helm
+    icon: https://rasa.com/static/rasa-logo-square-ef3444fc36faec97ae8bd7bfb568996d.svg
+    keywords:
+    - Rasa
+    - AI Assistants
+    - Chatbot
+    - Rasa X
+    maintainers:
+    - email: tom@rasa.com
+      name: tmbo
+      url: https://rasa.com
+    name: rasa-x
+    urls:
+    - https://github.com/RasaHQ/rasa-x-helm/releases/download/rasa-x-1.7.7/rasa-x-1.7.7.tgz
+    version: 1.7.7
+  - apiVersion: v2
+    appVersion: 0.33.0
+    created: "2020-11-06T15:50:17.551000776Z"
+    dependencies:
+    - condition: postgresql.install
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: ~8.6.4
+    - condition: redis.install
+      name: redis
+      repository: https://charts.bitnami.com/bitnami
+      version: ~10.5.12
+    - condition: rabbitmq.install
+      name: rabbitmq
+      repository: https://charts.bitnami.com/bitnami
+      version: ~6.19.2
+    description: Rasa X Helm chart for Kubernetes / Openshift
+    digest: 5bd1b2c9956c6047a0c4bba31d5634aba33fc0632a5ec76a64687ac084b5685c
+    home: https://github.com/RasaHQ/rasa-x-helm
+    icon: https://rasa.com/static/rasa-logo-square-ef3444fc36faec97ae8bd7bfb568996d.svg
+    keywords:
+    - Rasa
+    - AI Assistants
+    - Chatbot
+    - Rasa X
+    maintainers:
+    - email: tom@rasa.com
+      name: tmbo
+      url: https://rasa.com
+    name: rasa-x
+    urls:
+    - https://github.com/RasaHQ/rasa-x-helm/releases/download/rasa-x-1.7.6/rasa-x-1.7.6.tgz
+    version: 1.7.6
+  - apiVersion: v2
+    appVersion: 0.33.0
+    created: "2020-11-06T10:44:27.449833594Z"
+    dependencies:
+    - condition: postgresql.install
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: ~8.6.4
+    - condition: redis.install
+      name: redis
+      repository: https://charts.bitnami.com/bitnami
+      version: ~10.5.12
+    - condition: rabbitmq.install
+      name: rabbitmq
+      repository: https://charts.bitnami.com/bitnami
+      version: ~6.19.2
+    description: Rasa X Helm chart for Kubernetes / Openshift
+    digest: ae06fab3b788cbb426bf33d7a0d2b574be44bedee7fa256caebdfc9bfc223315
+    home: https://github.com/RasaHQ/rasa-x-helm
+    icon: https://rasa.com/static/rasa-logo-square-ef3444fc36faec97ae8bd7bfb568996d.svg
+    keywords:
+    - Rasa
+    - AI Assistants
+    - Chatbot
+    - Rasa X
+    maintainers:
+    - email: tom@rasa.com
+      name: tmbo
+      url: https://rasa.com
+    name: rasa-x
+    urls:
+    - https://github.com/RasaHQ/rasa-x-helm/releases/download/rasa-x-1.7.5/rasa-x-1.7.5.tgz
+    version: 1.7.5
+  - apiVersion: v2
+    appVersion: 0.33.0
+    created: "2020-11-06T08:41:40.601971778Z"
+    dependencies:
+    - condition: postgresql.install
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: ~8.6.4
+    - condition: redis.install
+      name: redis
+      repository: https://charts.bitnami.com/bitnami
+      version: ~10.5.12
+    - condition: rabbitmq.install
+      name: rabbitmq
+      repository: https://charts.bitnami.com/bitnami
+      version: ~6.19.2
+    description: Rasa X Helm chart for Kubernetes / Openshift
+    digest: eedc9b6a41472e6664e894bd34e1a2604b6b15dc07001f46eecb60dbd5edd732
+    home: https://github.com/RasaHQ/rasa-x-helm
+    icon: https://rasa.com/static/rasa-logo-square-ef3444fc36faec97ae8bd7bfb568996d.svg
+    keywords:
+    - Rasa
+    - AI Assistants
+    - Chatbot
+    - Rasa X
+    maintainers:
+    - email: tom@rasa.com
+      name: tmbo
+      url: https://rasa.com
+    name: rasa-x
+    urls:
+    - https://github.com/RasaHQ/rasa-x-helm/releases/download/rasa-x-1.7.4/rasa-x-1.7.4.tgz
+    version: 1.7.4
+  - apiVersion: v2
+    appVersion: 0.33.0
+    created: "2020-11-04T18:48:46.429848103Z"
+    dependencies:
+    - condition: postgresql.install
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: ~8.6.4
+    - condition: redis.install
+      name: redis
+      repository: https://charts.bitnami.com/bitnami
+      version: ~10.5.12
+    - condition: rabbitmq.install
+      name: rabbitmq
+      repository: https://charts.bitnami.com/bitnami
+      version: ~6.19.2
+    description: Rasa X Helm chart for Kubernetes / Openshift
+    digest: 14b37ccac05e730adcd01a4d8a4cfb6b29611383ae1f2fcd89fe29936b9251bc
+    home: https://github.com/RasaHQ/rasa-x-helm
+    icon: https://rasa.com/static/rasa-logo-square-ef3444fc36faec97ae8bd7bfb568996d.svg
+    keywords:
+    - Rasa
+    - AI Assistants
+    - Chatbot
+    - Rasa X
+    maintainers:
+    - email: tom@rasa.com
+      name: tmbo
+      url: https://rasa.com
+    name: rasa-x
+    urls:
+    - https://github.com/RasaHQ/rasa-x-helm/releases/download/rasa-x-1.7.3/rasa-x-1.7.3.tgz
+    version: 1.7.3
+  - apiVersion: v2
+    appVersion: 0.33.0
+    created: "2020-11-04T14:22:03.884171195Z"
+    dependencies:
+    - condition: postgresql.install
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: ~8.6.4
+    - condition: redis.install
+      name: redis
+      repository: https://charts.bitnami.com/bitnami
+      version: ~10.5.12
+    - condition: rabbitmq.install
+      name: rabbitmq
+      repository: https://charts.bitnami.com/bitnami
+      version: ~6.19.2
+    description: Rasa X Helm chart for Kubernetes / Openshift
+    digest: 3d5a40d5a380af688ba05345c40528a17d362b2dbb1a506e52adf12b77759cbe
+    home: https://github.com/RasaHQ/rasa-x-helm
+    icon: https://rasa.com/static/rasa-logo-square-ef3444fc36faec97ae8bd7bfb568996d.svg
+    keywords:
+    - Rasa
+    - AI Assistants
+    - Chatbot
+    - Rasa X
+    maintainers:
+    - email: tom@rasa.com
+      name: tmbo
+      url: https://rasa.com
+    name: rasa-x
+    urls:
+    - https://github.com/RasaHQ/rasa-x-helm/releases/download/rasa-x-1.7.2/rasa-x-1.7.2.tgz
+    version: 1.7.2
+  - apiVersion: v2
+    appVersion: 0.33.0
+    created: "2020-11-03T16:53:21.945018393Z"
+    dependencies:
+    - condition: postgresql.install
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: ~8.6.4
+    - condition: redis.install
+      name: redis
+      repository: https://charts.bitnami.com/bitnami
+      version: ~10.5.12
+    - condition: rabbitmq.install
+      name: rabbitmq
+      repository: https://charts.bitnami.com/bitnami
+      version: ~6.19.2
+    description: Rasa X Helm chart for Kubernetes / Openshift
+    digest: 4ed5b9bb870483bc3a0f7c72d9b0cc021f609b886b29842139569107a6b7d751
+    home: https://github.com/RasaHQ/rasa-x-helm
+    icon: https://rasa.com/static/rasa-logo-square-ef3444fc36faec97ae8bd7bfb568996d.svg
+    keywords:
+    - Rasa
+    - AI Assistants
+    - Chatbot
+    - Rasa X
+    maintainers:
+    - email: tom@rasa.com
+      name: tmbo
+      url: https://rasa.com
+    name: rasa-x
+    urls:
+    - https://github.com/RasaHQ/rasa-x-helm/releases/download/rasa-x-1.7.1/rasa-x-1.7.1.tgz
+    version: 1.7.1
+  - apiVersion: v2
+    appVersion: 0.33.0
+    created: "2020-11-03T14:04:54.129471581Z"
+    dependencies:
+    - condition: postgresql.install
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: ~8.6.4
+    - condition: redis.install
+      name: redis
+      repository: https://charts.bitnami.com/bitnami
+      version: ~10.5.12
+    - condition: rabbitmq.install
+      name: rabbitmq
+      repository: https://charts.bitnami.com/bitnami
+      version: ~6.19.2
+    description: Rasa X Helm chart for Kubernetes / Openshift
+    digest: 281bc1a58c52dc0369c88d741669f4aa4a58534faee775282310cacf9caa9198
+    home: https://github.com/RasaHQ/rasa-x-helm
+    icon: https://rasa.com/static/rasa-logo-square-ef3444fc36faec97ae8bd7bfb568996d.svg
+    keywords:
+    - Rasa
+    - AI Assistants
+    - Chatbot
+    - Rasa X
+    maintainers:
+    - email: tom@rasa.com
+      name: tmbo
+      url: https://rasa.com
+    name: rasa-x
+    urls:
+    - https://github.com/RasaHQ/rasa-x-helm/releases/download/rasa-x-1.7.0/rasa-x-1.7.0.tgz
+    version: 1.7.0
+  - apiVersion: v2
+    appVersion: 0.30.1
+    created: "2020-11-03T12:57:17.064377084Z"
+    dependencies:
+    - condition: postgresql.install
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: ~8.6.4
+    - condition: redis.install
+      name: redis
+      repository: https://charts.bitnami.com/bitnami
+      version: ~10.5.12
+    - condition: rabbitmq.install
+      name: rabbitmq
+      repository: https://charts.bitnami.com/bitnami
+      version: ~6.19.2
+    description: Rasa X Helm chart for Kubernetes / Openshift
+    digest: 8c8a321df698a499cf2699c56dc577d75b2080b415435a48cb07655ae7504569
+    home: https://github.com/RasaHQ/rasa-x-helm
+    icon: https://rasa.com/static/rasa-logo-square-ef3444fc36faec97ae8bd7bfb568996d.svg
+    keywords:
+    - Rasa
+    - AI Assistants
+    - Chatbot
+    - Rasa X
+    maintainers:
+    - email: tom@rasa.com
+      name: tmbo
+      url: https://rasa.com
+    name: rasa-x
+    urls:
+    - https://github.com/RasaHQ/rasa-x-helm/releases/download/rasa-x-1.6.13/rasa-x-1.6.13.tgz
+    version: 1.6.13
+  - apiVersion: v2
+    appVersion: 0.30.1
+    created: "2020-10-30T07:18:09.934442243Z"
+    dependencies:
+    - condition: postgresql.install
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: ~8.6.4
+    - condition: redis.install
+      name: redis
+      repository: https://charts.bitnami.com/bitnami
+      version: ~10.5.12
+    - condition: rabbitmq.install
+      name: rabbitmq
+      repository: https://charts.bitnami.com/bitnami
+      version: ~6.19.2
+    description: Rasa X Helm chart for Kubernetes / Openshift
+    digest: 6e1e1325756f5b6c4f0edfe87e4832b53185eb062e1ac4ba4768b0301eade37f
+    home: https://github.com/RasaHQ/rasa-x-helm
+    icon: https://rasa.com/static/rasa-logo-square-ef3444fc36faec97ae8bd7bfb568996d.svg
+    keywords:
+    - Rasa
+    - AI Assistants
+    - Chatbot
+    - Rasa X
+    maintainers:
+    - email: tom@rasa.com
+      name: tmbo
+      url: https://rasa.com
+    name: rasa-x
+    urls:
+    - https://github.com/RasaHQ/rasa-x-helm/releases/download/rasa-x-1.6.12/rasa-x-1.6.12.tgz
+    version: 1.6.12
+  - apiVersion: v2
+    appVersion: 0.30.1
+    created: "2020-10-27T21:09:49.229405819Z"
+    dependencies:
+    - condition: postgresql.install
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: ~8.6.4
+    - condition: redis.install
+      name: redis
+      repository: https://charts.bitnami.com/bitnami
+      version: ~10.5.12
+    - condition: rabbitmq.install
+      name: rabbitmq
+      repository: https://charts.bitnami.com/bitnami
+      version: ~6.19.2
+    description: Rasa X Helm chart for Kubernetes / Openshift
+    digest: 815c54a4c1c2d1f6728769d416eae0b486425d0a3f321990f284897b1de6c272
+    home: https://github.com/RasaHQ/rasa-x-helm
+    icon: https://rasa.com/static/rasa-logo-square-ef3444fc36faec97ae8bd7bfb568996d.svg
+    keywords:
+    - Rasa
+    - AI Assistants
+    - Chatbot
+    - Rasa X
+    maintainers:
+    - email: tom@rasa.com
+      name: tmbo
+      url: https://rasa.com
+    name: rasa-x
+    urls:
+    - https://github.com/RasaHQ/rasa-x-helm/releases/download/rasa-x-1.6.11/rasa-x-1.6.11.tgz
+    version: 1.6.11
+  - apiVersion: v2
+    appVersion: 0.30.1
+    created: "2020-10-21T13:42:42.316139851Z"
+    dependencies:
+    - condition: postgresql.install
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: ~8.6.4
+    - condition: redis.install
+      name: redis
+      repository: https://charts.bitnami.com/bitnami
+      version: ~10.5.12
+    - condition: rabbitmq.install
+      name: rabbitmq
+      repository: https://charts.bitnami.com/bitnami
+      version: ~6.19.2
+    description: Rasa X Helm chart for Kubernetes / Openshift
+    digest: 4cfbee69a5f938951ea3aebd68848e3dd69263c8acdcadbca57daf285eb53517
+    home: https://github.com/RasaHQ/rasa-x-helm
+    icon: https://rasa.com/static/rasa-logo-square-ef3444fc36faec97ae8bd7bfb568996d.svg
+    keywords:
+    - Rasa
+    - AI Assistants
+    - Chatbot
+    - Rasa X
+    maintainers:
+    - email: tom@rasa.com
+      name: tmbo
+      url: https://rasa.com
+    name: rasa-x
+    urls:
+    - https://github.com/RasaHQ/rasa-x-helm/releases/download/rasa-x-1.6.10/rasa-x-1.6.10.tgz
+    version: 1.6.10
+  - apiVersion: v2
+    appVersion: 0.30.1
+    created: "2020-10-16T13:38:23.143392192Z"
+    dependencies:
+    - condition: postgresql.install
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: ~8.6.4
+    - condition: redis.install
+      name: redis
+      repository: https://charts.bitnami.com/bitnami
+      version: ~10.5.12
+    - condition: rabbitmq.install
+      name: rabbitmq
+      repository: https://charts.bitnami.com/bitnami
+      version: ~6.19.2
+    description: Rasa X Helm chart for Kubernetes / Openshift
+    digest: b16153f4f2004a2d130a33f73abe5d9d233e3d8d8b5060752e1f25e8785cc638
+    home: https://github.com/RasaHQ/rasa-x-helm
+    icon: https://rasa.com/static/rasa-logo-square-ef3444fc36faec97ae8bd7bfb568996d.svg
+    keywords:
+    - Rasa
+    - AI Assistants
+    - Chatbot
+    - Rasa X
+    maintainers:
+    - email: tom@rasa.com
+      name: tmbo
+      url: https://rasa.com
+    name: rasa-x
+    urls:
+    - https://github.com/RasaHQ/rasa-x-helm/releases/download/rasa-x-1.6.9/rasa-x-1.6.9.tgz
+    version: 1.6.9
+  - apiVersion: v2
+    appVersion: 0.30.1
+    created: "2020-10-16T10:13:02.486779646Z"
+    dependencies:
+    - condition: postgresql.install
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: ~8.6.4
+    - condition: redis.install
+      name: redis
+      repository: https://charts.bitnami.com/bitnami
+      version: ~10.5.12
+    - condition: rabbitmq.install
+      name: rabbitmq
+      repository: https://charts.bitnami.com/bitnami
+      version: ~6.19.2
+    description: Rasa X Helm chart for Kubernetes / Openshift
+    digest: 8640a2d4103d73961e36ac0c0bb990fb3f09389c2b5d7eec8875efe981e823dd
+    home: https://github.com/RasaHQ/rasa-x-helm
+    icon: https://rasa.com/static/rasa-logo-square-ef3444fc36faec97ae8bd7bfb568996d.svg
+    keywords:
+    - Rasa
+    - AI Assistants
+    - Chatbot
+    - Rasa X
+    maintainers:
+    - email: tom@rasa.com
+      name: tmbo
+      url: https://rasa.com
+    name: rasa-x
+    urls:
+    - https://github.com/RasaHQ/rasa-x-helm/releases/download/rasa-x-1.6.8/rasa-x-1.6.8.tgz
+    version: 1.6.8
+  - apiVersion: v2
+    appVersion: 0.30.1
+    created: "2020-10-15T15:19:30.112574239Z"
+    dependencies:
+    - condition: postgresql.install
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: ~8.6.4
+    - condition: redis.install
+      name: redis
+      repository: https://charts.bitnami.com/bitnami
+      version: ~10.5.12
+    - condition: rabbitmq.install
+      name: rabbitmq
+      repository: https://charts.bitnami.com/bitnami
+      version: ~6.19.2
+    description: Rasa X Helm chart for Kubernetes / Openshift
+    digest: 2bd1f57de307bf770d5b4300d7f04aaacc7edb86dbb9a8513e8e8f76302b7fa2
+    home: https://github.com/RasaHQ/rasa-x-helm
+    icon: https://rasa.com/static/rasa-logo-square-ef3444fc36faec97ae8bd7bfb568996d.svg
+    keywords:
+    - Rasa
+    - AI Assistants
+    - Chatbot
+    - Rasa X
+    maintainers:
+    - email: tom@rasa.com
+      name: tmbo
+      url: https://rasa.com
+    name: rasa-x
+    urls:
+    - https://github.com/RasaHQ/rasa-x-helm/releases/download/rasa-x-1.6.7/rasa-x-1.6.7.tgz
+    version: 1.6.7
+  - apiVersion: v2
+    appVersion: 0.30.1
+    created: "2020-10-14T08:24:09.156627792Z"
+    dependencies:
+    - condition: postgresql.install
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: ~8.6.4
+    - condition: redis.install
+      name: redis
+      repository: https://charts.bitnami.com/bitnami
+      version: ~10.5.12
+    - condition: rabbitmq.install
+      name: rabbitmq
+      repository: https://charts.bitnami.com/bitnami
+      version: ~6.19.2
+    description: Rasa X Helm chart for Kubernetes / Openshift
+    digest: 84e904959d164f4fd0afe0d69afb2a02be77e3a6d73920dad8846eb70c167ae4
+    home: https://github.com/RasaHQ/rasa-x-helm
+    icon: https://rasa.com/static/rasa-logo-square-ef3444fc36faec97ae8bd7bfb568996d.svg
+    keywords:
+    - Rasa
+    - AI Assistants
+    - Chatbot
+    - Rasa X
+    maintainers:
+    - email: tom@rasa.com
+      name: tmbo
+      url: https://rasa.com
+    name: rasa-x
+    urls:
+    - https://github.com/RasaHQ/rasa-x-helm/releases/download/rasa-x-1.6.6/rasa-x-1.6.6.tgz
+    version: 1.6.6
+  - apiVersion: v2
+    appVersion: 0.30.1
+    created: "2020-10-13T07:00:19.32658538Z"
+    dependencies:
+    - condition: postgresql.install
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: ~8.6.4
+    - condition: redis.install
+      name: redis
+      repository: https://charts.bitnami.com/bitnami
+      version: ~10.5.12
+    - condition: rabbitmq.install
+      name: rabbitmq
+      repository: https://charts.bitnami.com/bitnami
+      version: ~6.19.2
+    description: Rasa X Helm chart for Kubernetes / Openshift
+    digest: 55937e830601b7b7a8d5193277e9264058181b95ca9cc887103526cf378c4f7c
+    home: https://github.com/RasaHQ/rasa-x-helm
+    icon: https://rasa.com/static/rasa-logo-square-ef3444fc36faec97ae8bd7bfb568996d.svg
+    keywords:
+    - Rasa
+    - AI Assistants
+    - Chatbot
+    - Rasa X
+    maintainers:
+    - email: tom@rasa.com
+      name: tmbo
+      url: https://rasa.com
+    name: rasa-x
+    urls:
+    - https://github.com/RasaHQ/rasa-x-helm/releases/download/rasa-x-1.6.5/rasa-x-1.6.5.tgz
+    version: 1.6.5
+  - apiVersion: v2
+    appVersion: 0.30.1
+    created: "2020-10-07T10:57:47.32421039Z"
+    dependencies:
+    - condition: postgresql.install
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: ~8.6.4
+    - condition: redis.install
+      name: redis
+      repository: https://charts.bitnami.com/bitnami
+      version: ~10.5.12
+    - condition: rabbitmq.install
+      name: rabbitmq
+      repository: https://charts.bitnami.com/bitnami
+      version: ~6.19.2
+    description: Rasa X Helm chart for Kubernetes / Openshift
+    digest: aef7909462fb49bd22a10709f1836b4886c3eda5365248ed3e9a7691f4b51a0e
+    home: https://github.com/RasaHQ/rasa-x-helm
+    icon: https://rasa.com/static/rasa-logo-square-ef3444fc36faec97ae8bd7bfb568996d.svg
+    keywords:
+    - Rasa
+    - AI Assistants
+    - Chatbot
+    - Rasa X
+    maintainers:
+    - email: tom@rasa.com
+      name: tmbo
+      url: https://rasa.com
+    name: rasa-x
+    urls:
+    - https://github.com/RasaHQ/rasa-x-helm/releases/download/rasa-x-1.6.4/rasa-x-1.6.4.tgz
+    version: 1.6.4
+  - apiVersion: v2
+    appVersion: 0.30.1
+    created: "2020-10-02T19:52:54.427376865Z"
+    dependencies:
+    - condition: postgresql.install
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: ~8.6.4
+    - condition: redis.install
+      name: redis
+      repository: https://charts.bitnami.com/bitnami
+      version: ~10.5.12
+    - condition: rabbitmq.install
+      name: rabbitmq
+      repository: https://charts.bitnami.com/bitnami
+      version: ~6.19.2
+    description: Rasa X Helm chart for Kubernetes / Openshift
+    digest: f5ed04336201d85036819911eccd32affd55bcf9df7266d3b2c9ae420fc32ae8
+    home: https://github.com/RasaHQ/rasa-x-helm
+    icon: https://rasa.com/static/rasa-logo-square-ef3444fc36faec97ae8bd7bfb568996d.svg
+    keywords:
+    - Rasa
+    - AI Assistants
+    - Chatbot
+    - Rasa X
+    maintainers:
+    - email: tom@rasa.com
+      name: tmbo
+      url: https://rasa.com
+    name: rasa-x
+    urls:
+    - https://github.com/RasaHQ/rasa-x-helm/releases/download/rasa-x-1.6.3/rasa-x-1.6.3.tgz
+    version: 1.6.3
+  - apiVersion: v2
+    appVersion: 0.30.1
+    created: "2020-09-30T14:16:18.425962791Z"
+    dependencies:
+    - condition: postgresql.install
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: ~8.6.4
+    - condition: redis.install
+      name: redis
+      repository: https://charts.bitnami.com/bitnami
+      version: ~10.5.12
+    - condition: rabbitmq.install
+      name: rabbitmq
+      repository: https://charts.bitnami.com/bitnami
+      version: ~6.19.2
+    description: Rasa X Helm chart for Kubernetes / Openshift
+    digest: d106916af53cee264de81adfe15880183572a1775d83ac82dc447353575d73d3
+    home: https://github.com/RasaHQ/rasa-x-helm
+    icon: https://rasa.com/static/rasa-logo-square-ef3444fc36faec97ae8bd7bfb568996d.svg
+    keywords:
+    - Rasa
+    - AI Assistants
+    - Chatbot
+    - Rasa X
+    maintainers:
+    - email: tom@rasa.com
+      name: tmbo
+      url: https://rasa.com
+    name: rasa-x
+    urls:
+    - https://github.com/RasaHQ/rasa-x-helm/releases/download/rasa-x-1.6.2/rasa-x-1.6.2.tgz
+    version: 1.6.2
+  - apiVersion: v2
+    appVersion: 0.30.1
+    created: "2020-09-17T10:27:09.635364796Z"
+    dependencies:
+    - condition: postgresql.install
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: ~8.6.4
+    - condition: redis.install
+      name: redis
+      repository: https://charts.bitnami.com/bitnami
+      version: ~10.5.12
+    - condition: rabbitmq.install
+      name: rabbitmq
+      repository: https://charts.bitnami.com/bitnami
+      version: ~6.19.2
+    description: Rasa X Helm chart for Kubernetes / Openshift
+    digest: 450c378541fde3659d4ae929682eaadd8fa77241c960f4ef15582b8015352b2c
+    home: https://github.com/RasaHQ/rasa-x-helm
+    icon: https://rasa.com/static/rasa-logo-square-ef3444fc36faec97ae8bd7bfb568996d.svg
+    keywords:
+    - Rasa
+    - AI Assistants
+    - Chatbot
+    - Rasa X
+    maintainers:
+    - email: tom@rasa.com
+      name: tmbo
+      url: https://rasa.com
+    name: rasa-x
+    urls:
+    - https://github.com/RasaHQ/rasa-x-helm/releases/download/rasa-x-1.6.1/rasa-x-1.6.1.tgz
+    version: 1.6.1
+  - apiVersion: v2
+    appVersion: 0.30.1
+    created: "2020-08-13T09:38:31.468175691Z"
+    dependencies:
+    - condition: postgresql.install
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: ~8.6.4
+    - condition: redis.install
+      name: redis
+      repository: https://charts.bitnami.com/bitnami
+      version: ~10.5.12
+    - condition: rabbitmq.install
+      name: rabbitmq
+      repository: https://charts.bitnami.com/bitnami
+      version: ~6.19.2
+    description: Rasa X Helm chart for Kubernetes / Openshift
+    digest: d7fa5d1deafdfdba19a9094a345ecf68b489944f70218968d5ca857faedb09cc
+    home: https://github.com/RasaHQ/rasa-x-helm
+    icon: https://rasa.com/static/rasa-logo-square-ef3444fc36faec97ae8bd7bfb568996d.svg
+    keywords:
+    - Rasa
+    - AI Assistants
+    - Chatbot
+    - Rasa X
+    maintainers:
+    - email: tom@rasa.com
+      name: tmbo
+      url: https://rasa.com
+    name: rasa-x
+    urls:
+    - https://github.com/RasaHQ/rasa-x-helm/releases/download/rasa-x-1.6.0/rasa-x-1.6.0.tgz
+    version: 1.6.0
+  - apiVersion: v2
+    appVersion: 0.30.1
+    created: "2020-08-04T08:35:08.528485037Z"
+    dependencies:
+    - condition: postgresql.install
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: ~8.6.4
+    - condition: redis.install
+      name: redis
+      repository: https://charts.bitnami.com/bitnami
+      version: ~10.5.12
+    - condition: rabbitmq.install
+      name: rabbitmq
+      repository: https://charts.bitnami.com/bitnami
+      version: ~6.19.2
+    description: Rasa X Helm chart for Kubernetes / Openshift
+    digest: 8dbd30bcedc6d286d24e6f0c2e4325450d58abf2ca0a4deeb57ed44e0ce0880a
+    home: https://github.com/RasaHQ/rasa-x-helm
+    icon: https://rasa.com/static/rasa-logo-square-ef3444fc36faec97ae8bd7bfb568996d.svg
+    keywords:
+    - Rasa
+    - AI Assistants
+    - Chatbot
+    - Rasa X
+    maintainers:
+    - email: tom@rasa.com
+      name: tmbo
+      url: https://rasa.com
+    name: rasa-x
+    urls:
+    - https://github.com/RasaHQ/rasa-x-helm/releases/download/rasa-x-1.5.0/rasa-x-1.5.0.tgz
+    version: 1.5.0
+  - apiVersion: v2
+    appVersion: 0.30.1
+    created: "2020-07-21T12:54:55.298658618Z"
+    dependencies:
+    - condition: postgresql.install
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: ~8.6.4
+    - condition: redis.install
+      name: redis
+      repository: https://charts.bitnami.com/bitnami
+      version: ~10.5.12
+    - condition: rabbitmq.install
+      name: rabbitmq
+      repository: https://charts.bitnami.com/bitnami
+      version: ~6.18.9
+    description: Rasa X Helm chart for Kubernetes / Openshift
+    digest: 9dfdcf690dc6eb2bef9c584df03312d35039d422f5a2d0450ca08631197eca20
+    home: https://github.com/RasaHQ/rasa-x-helm
+    icon: https://rasa.com/static/rasa-logo-square-ef3444fc36faec97ae8bd7bfb568996d.svg
+    keywords:
+    - Rasa
+    - AI Assistants
+    - Chatbot
+    - Rasa X
+    maintainers:
+    - email: tom@rasa.com
+      name: tmbo
+      url: https://rasa.com
+    name: rasa-x
+    urls:
+    - https://github.com/RasaHQ/rasa-x-helm/releases/download/rasa-x-1.4.1/rasa-x-1.4.1.tgz
+    version: 1.4.1
+  - apiVersion: v2
+    appVersion: 0.30.1
+    created: "2020-07-20T13:39:38.538131901Z"
+    dependencies:
+    - condition: postgresql.install
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: ~8.6.4
+    - condition: redis.install
+      name: redis
+      repository: https://charts.bitnami.com/bitnami
+      version: ~10.5.12
+    - condition: rabbitmq.install
+      name: rabbitmq
+      repository: https://charts.bitnami.com/bitnami
+      version: ~6.18.9
+    description: Rasa X Helm chart for Kubernetes / Openshift
+    digest: df75eb1e514014e28961283433101f5dd1cded8993ee2cecc511da70fe2a2c3f
+    home: https://github.com/RasaHQ/rasa-x-helm
+    icon: https://rasa.com/static/rasa-logo-square-ef3444fc36faec97ae8bd7bfb568996d.svg
+    keywords:
+    - Rasa
+    - AI Assistants
+    - Chatbot
+    - Rasa X
+    maintainers:
+    - email: tom@rasa.com
+      name: tmbo
+      url: https://rasa.com
+    name: rasa-x
+    urls:
+    - https://github.com/RasaHQ/rasa-x-helm/releases/download/rasa-x-1.4.0/rasa-x-1.4.0.tgz
+    version: 1.4.0
+  - apiVersion: v2
+    appVersion: 0.30.1
+    created: "2020-07-13T12:07:23.151714432Z"
+    dependencies:
+    - condition: postgresql.install
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: ~8.6.4
+    - condition: redis.install
+      name: redis
+      repository: https://charts.bitnami.com/bitnami
+      version: ~10.5.12
+    - condition: rabbitmq.install
+      name: rabbitmq
+      repository: https://charts.bitnami.com/bitnami
+      version: ~6.18.9
+    description: Rasa X Helm chart for Kubernetes / Openshift
+    digest: d294827d4c4abc126577f91c54451ed589902fc070307843f06a504dc26cabb4
+    home: https://github.com/RasaHQ/rasa-x-helm
+    icon: https://rasa.com/static/rasa-logo-square-ef3444fc36faec97ae8bd7bfb568996d.svg
+    keywords:
+    - Rasa
+    - AI Assistants
+    - Chatbot
+    - Rasa X
+    maintainers:
+    - email: tom@rasa.com
+      name: tmbo
+      url: https://rasa.com
+    name: rasa-x
+    urls:
+    - https://github.com/RasaHQ/rasa-x-helm/releases/download/rasa-x-1.3.1/rasa-x-1.3.1.tgz
+    version: 1.3.1
+  - apiVersion: v2
+    appVersion: 0.30.1
+    created: "2020-07-08T15:57:05.949394014Z"
+    dependencies:
+    - condition: postgresql.install
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: ~8.6.4
+    - condition: redis.install
+      name: redis
+      repository: https://charts.bitnami.com/bitnami
+      version: ~10.5.12
+    - condition: rabbitmq.install
+      name: rabbitmq
+      repository: https://charts.bitnami.com/bitnami
+      version: ~6.18.9
+    description: Rasa X Helm chart for Kubernetes / Openshift
+    digest: a3bb302f0d2ed566230c9e6c94fe4f7e44860486286930f4ced65b9cf0b7aca7
+    home: https://github.com/RasaHQ/rasa-x-helm
+    icon: https://rasa.com/static/rasa-logo-square-ef3444fc36faec97ae8bd7bfb568996d.svg
+    keywords:
+    - Rasa
+    - AI Assistants
+    - Chatbot
+    - Rasa X
+    maintainers:
+    - email: tom@rasa.com
+      name: tmbo
+      url: https://rasa.com
+    name: rasa-x
+    urls:
+    - https://github.com/RasaHQ/rasa-x-helm/releases/download/rasa-x-1.3.0/rasa-x-1.3.0.tgz
+    version: 1.3.0
+  - apiVersion: v2
+    appVersion: 0.29.1
+    created: "2020-06-22T11:43:07.62911315Z"
+    dependencies:
+    - condition: postgresql.install
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: ~8.6.4
+    - condition: redis.install
+      name: redis
+      repository: https://charts.bitnami.com/bitnami
+      version: ~10.5.12
+    - condition: rabbitmq.install
+      name: rabbitmq
+      repository: https://charts.bitnami.com/bitnami
+      version: ~6.18.9
+    description: Rasa X Helm chart for Kubernetes / Openshift
+    digest: 59b6bb595b1561aeae8d7352e3ba8bf9e805d8811a8ceb5a242aace37e7a38bf
+    home: https://github.com/RasaHQ/rasa-x-helm
+    icon: https://rasa.com/static/rasa-logo-square-ef3444fc36faec97ae8bd7bfb568996d.svg
+    keywords:
+    - Rasa
+    - AI Assistants
+    - Chatbot
+    - Rasa X
+    maintainers:
+    - email: tom@rasa.com
+      name: tmbo
+      url: https://rasa.com
+    name: rasa-x
+    urls:
+    - https://github.com/RasaHQ/rasa-x-helm/releases/download/rasa-x-1.2.9/rasa-x-1.2.9.tgz
+    version: 1.2.9
+  - apiVersion: v2
+    appVersion: 0.28.3
+    created: "2020-06-02T07:25:37.407139529Z"
+    dependencies:
+    - condition: postgresql.install
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: ~8.6.4
+    - condition: redis.install
+      name: redis
+      repository: https://charts.bitnami.com/bitnami
+      version: ~10.5.12
+    - condition: rabbitmq.install
+      name: rabbitmq
+      repository: https://charts.bitnami.com/bitnami
+      version: ~6.18.9
+    description: Rasa X Helm chart for Kubernetes / Openshift
+    digest: 1f232e0d6203367d80769c3712dcafe88b9b9ff57349faa62e17167f6b669e6a
+    home: https://github.com/RasaHQ/rasa-x-helm
+    icon: https://rasa.com/static/rasa-logo-square-ef3444fc36faec97ae8bd7bfb568996d.svg
+    keywords:
+    - Rasa
+    - AI Assistants
+    - Chatbot
+    - Rasa X
+    maintainers:
+    - email: tom@rasa.com
+      name: tmbo
+      url: https://rasa.com
+    name: rasa-x
+    urls:
+    - https://github.com/RasaHQ/rasa-x-helm/releases/download/rasa-x-1.2.8/rasa-x-1.2.8.tgz
+    version: 1.2.8
+  - apiVersion: v2
+    appVersion: 0.27.4
+    created: "2020-05-12T09:25:51.061498981Z"
+    dependencies:
+    - condition: postgresql.install
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: ~8.6.4
+    - condition: redis.install
+      name: redis
+      repository: https://charts.bitnami.com/bitnami
+      version: ~10.5.12
+    - condition: rabbitmq.install
+      name: rabbitmq
+      repository: https://charts.bitnami.com/bitnami
+      version: ~6.18.9
+    description: Rasa X Helm chart for Kubernetes / Openshift
+    digest: ed8bdca07e3abce6425d492d0bfb4d7de54ce5c36699026ca9a33b865410b5be
+    home: https://github.com/RasaHQ/rasa-x-helm
+    icon: https://rasa.com/static/rasa-logo-square-ef3444fc36faec97ae8bd7bfb568996d.svg
+    keywords:
+    - Rasa
+    - AI Assistants
+    - Chatbot
+    - Rasa X
+    maintainers:
+    - email: tom@rasa.com
+      name: tmbo
+      url: https://rasa.com
+    name: rasa-x
+    urls:
+    - https://github.com/RasaHQ/rasa-x-helm/releases/download/rasa-x-1.2.7/rasa-x-1.2.7.tgz
+    version: 1.2.7
+  - apiVersion: v2
+    appVersion: 0.27.4
+    created: "2020-04-23T17:04:06.515559184Z"
+    dependencies:
+    - condition: postgresql.install
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: ~8.6.4
+    - condition: redis.install
+      name: redis
+      repository: https://charts.bitnami.com/bitnami
+      version: ~10.5.12
+    - condition: rabbitmq.install
+      name: rabbitmq
+      repository: https://charts.bitnami.com/bitnami
+      version: ~6.18.9
+    description: Rasa X Helm chart for Kubernetes / Openshift
+    digest: ab9fa5547421a86ba941c5af9122bef11f02fe33fc7de96ea8b0a3f401087576
+    home: https://github.com/RasaHQ/rasa-x-helm
+    icon: https://rasa.com/static/rasa-logo-square-ef3444fc36faec97ae8bd7bfb568996d.svg
+    keywords:
+    - Rasa
+    - AI Assistants
+    - Chatbot
+    - Rasa X
+    maintainers:
+    - email: tom@rasa.com
+      name: tmbo
+      url: https://rasa.com
+    name: rasa-x
+    urls:
+    - https://github.com/RasaHQ/rasa-x-helm/releases/download/rasa-x-1.2.6/rasa-x-1.2.6.tgz
+    version: 1.2.6
+  - apiVersion: v2
+    appVersion: 0.27.4
+    created: "2020-04-14T07:45:12.155662123Z"
+    dependencies:
+    - condition: postgresql.install
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: ~8.6.4
+    - condition: redis.install
+      name: redis
+      repository: https://charts.bitnami.com/bitnami
+      version: ~10.5.12
+    - condition: rabbitmq.install
+      name: rabbitmq
+      repository: https://charts.bitnami.com/bitnami
+      version: ~6.18.9
+    description: Rasa X Helm chart for Kubernetes / Openshift
+    digest: 70e4a5ea9a73e4a8508b486967e507c4817d751cf8874a5c76b7bd1f76eb6536
+    home: https://github.com/RasaHQ/rasa-x-helm
+    icon: https://rasa.com/static/rasa-logo-square-ef3444fc36faec97ae8bd7bfb568996d.svg
+    keywords:
+    - Rasa
+    - AI Assistants
+    - Chatbot
+    - Rasa X
+    maintainers:
+    - email: tom@rasa.com
+      name: tmbo
+      url: https://rasa.com
+    name: rasa-x
+    urls:
+    - https://github.com/RasaHQ/rasa-x-helm/releases/download/rasa-x-1.2.5/rasa-x-1.2.5.tgz
+    version: 1.2.5
+  - apiVersion: v2
+    appVersion: 0.27.4
+    created: "2020-04-09T10:02:22.541479851Z"
+    dependencies:
+    - condition: postgresql.install
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: ~8.6.4
+    - condition: redis.install
+      name: redis
+      repository: https://charts.bitnami.com/bitnami
+      version: ~10.5.12
+    - condition: rabbitmq.install
+      name: rabbitmq
+      repository: https://charts.bitnami.com/bitnami
+      version: ~6.18.9
+    description: Rasa X Helm chart for Kubernetes / Openshift
+    digest: f8b45e3c600d6125117221ecabe8c421d2e7d5b6d4b91a7181ff60d01e023471
+    home: https://github.com/RasaHQ/rasa-x-helm
+    icon: https://rasa.com/static/rasa-logo-square-ef3444fc36faec97ae8bd7bfb568996d.svg
+    keywords:
+    - Rasa
+    - AI Assistants
+    - Chatbot
+    - Rasa X
+    maintainers:
+    - email: tom@rasa.com
+      name: tmbo
+      url: https://rasa.com
+    name: rasa-x
+    urls:
+    - https://github.com/RasaHQ/rasa-x-helm/releases/download/rasa-x-1.2.4/rasa-x-1.2.4.tgz
+    version: 1.2.4
+  - apiVersion: v2
+    appVersion: 0.26.0
+    created: "2020-04-06T14:32:30.023680766Z"
+    dependencies:
+    - condition: postgresql.install
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: ~8.6.4
+    - condition: redis.install
+      name: redis
+      repository: https://charts.bitnami.com/bitnami
+      version: ~10.5.12
+    - condition: rabbitmq.install
+      name: rabbitmq
+      repository: https://charts.bitnami.com/bitnami
+      version: ~6.18.9
+    description: Rasa X Helm chart for Kubernetes / Openshift
+    digest: 3307d25b27fffbad9aa2f4d49af2d08312243aeeddd439b7dd97580c77de9387
+    home: https://github.com/RasaHQ/rasa-x-helm
+    icon: https://rasa.com/static/rasa-logo-square-ef3444fc36faec97ae8bd7bfb568996d.svg
+    keywords:
+    - Rasa
+    - AI Assistants
+    - Chatbot
+    - Rasa X
+    maintainers:
+    - email: tom@rasa.com
+      name: tmbo
+      url: https://rasa.com
+    name: rasa-x
+    urls:
+    - https://github.com/RasaHQ/rasa-x-helm/releases/download/rasa-x-1.2.3/rasa-x-1.2.3.tgz
+    version: 1.2.3
+  - apiVersion: v2
+    appVersion: 0.26.0
+    created: "2020-03-19T13:12:07.933661657Z"
+    dependencies:
+    - condition: postgresql.install
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: ~8.6.4
+    - condition: redis.install
+      name: redis
+      repository: https://charts.bitnami.com/bitnami
+      version: ~10.5.12
+    - condition: rabbitmq.install
+      name: rabbitmq
+      repository: https://charts.bitnami.com/bitnami
+      version: ~6.18.9
+    description: Rasa X Helm chart for Kubernetes / Openshift
+    digest: 60fec9e26e574aadab29b763349c43645c1aef1e7f4f3bac0f0439e2f045fd1b
+    home: https://github.com/RasaHQ/rasa-x-helm
+    icon: https://rasa.com/static/rasa-logo-square-ef3444fc36faec97ae8bd7bfb568996d.svg
+    keywords:
+    - Rasa
+    - AI Assistants
+    - Chatbot
+    - Rasa X
+    maintainers:
+    - email: tom@rasa.com
+      name: tmbo
+      url: https://rasa.com
+    name: rasa-x
+    urls:
+    - https://github.com/RasaHQ/rasa-x-helm/releases/download/rasa-x-1.2.1/rasa-x-1.2.1.tgz
+    version: 1.2.1
+  - apiVersion: v2
+    appVersion: 0.26.0
+    created: "2020-03-19T09:38:56.603842089Z"
+    dependencies:
+    - condition: postgresql.install
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: ~8.6.4
+    - condition: redis.install
+      name: redis
+      repository: https://charts.bitnami.com/bitnami
+      version: ~10.5.12
+    - condition: rabbitmq.install
+      name: rabbitmq
+      repository: https://charts.bitnami.com/bitnami
+      version: ~6.18.9
+    description: Rasa X Helm chart for Kubernetes / Openshift
+    digest: d65700f51c44606f0e889db80f9b3051c4b988f2c9e14ff02c178bc3e41e9319
+    home: https://github.com/RasaHQ/rasa-x-helm
+    icon: https://rasa.com/static/rasa-logo-square-ef3444fc36faec97ae8bd7bfb568996d.svg
+    keywords:
+    - Rasa
+    - AI Assistants
+    - Chatbot
+    - Rasa X
+    maintainers:
+    - email: tom@rasa.com
+      name: tmbo
+      url: https://rasa.com
+    name: rasa-x
+    urls:
+    - https://github.com/RasaHQ/rasa-x-helm/releases/download/rasa-x-1.2.0/rasa-x-1.2.0.tgz
+    version: 1.2.0
+  - apiVersion: v1
+    appVersion: 0.26.0
+    created: "2020-03-13T15:24:17.705959175Z"
+    description: Rasa X Helm chart for Kubernetes / Openshift
+    digest: c7b237cbb4ebdb69035b287ee409809938fffadd929f86ac7772b8f617f8647b
+    home: https://github.com/RasaHQ/rasa-x-helm
+    icon: https://rasa.com/static/rasa-logo-square-ef3444fc36faec97ae8bd7bfb568996d.svg
+    keywords:
+    - Rasa
+    - AI Assistants
+    - Chatbot
+    - Rasa X
+    maintainers:
+    - email: tom@rasa.com
+      name: tmbo
+      url: https://rasa.com
+    name: rasa-x
+    urls:
+    - https://github.com/RasaHQ/rasa-x-helm/releases/download/rasa-x-1.1.6/rasa-x-1.1.6.tgz
+    version: 1.1.6
+  - apiVersion: v1
+    appVersion: 0.25.1
+    created: "2020-03-12T11:05:29.567753362Z"
+    description: Rasa X Helm chart for Kubernetes / Openshift
+    digest: 51f4fdb790006bf79ae3650d670dd251f737b4d714aae5e6cfa8de61939fe207
+    home: https://github.com/RasaHQ/rasa-x-helm
+    icon: https://rasa.com/static/rasa-logo-square-ef3444fc36faec97ae8bd7bfb568996d.svg
+    keywords:
+    - Rasa
+    - AI Assistants
+    - Chatbot
+    - Rasa X
+    maintainers:
+    - email: tom@rasa.com
+      name: tmbo
+      url: https://rasa.com
+    name: rasa-x
+    urls:
+    - https://github.com/RasaHQ/rasa-x-helm/releases/download/rasa-x-1.1.5/rasa-x-1.1.5.tgz
+    version: 1.1.5
+  - apiVersion: v1
+    appVersion: 0.25.1
+    created: "2020-03-04T07:58:44.728700566Z"
+    description: Rasa X Helm chart for Kubernetes / Openshift
+    digest: e1d7fdcc7309407c8b16c9b5ae9a0a85f9b3280704ebf3a276a7b4929f868bac
+    home: https://github.com/RasaHQ/rasa-x-helm
+    icon: https://rasa.com/static/rasa-logo-square-ef3444fc36faec97ae8bd7bfb568996d.svg
+    keywords:
+    - Rasa
+    - AI Assistants
+    - Chatbot
+    - Rasa X
+    maintainers:
+    - email: tom@rasa.com
+      name: tmbo
+      url: https://rasa.com
+    name: rasa-x
+    urls:
+    - https://github.com/RasaHQ/rasa-x-helm/releases/download/rasa-x-1.1.4/rasa-x-1.1.4.tgz
+    version: 1.1.4
+  - apiVersion: v1
+    appVersion: 0.25.1
+    created: "2020-03-02T10:58:37.221646606Z"
+    description: Rasa X Helm chart for Kubernetes / Openshift
+    digest: 2b86b833eb203bd18ccaa3214ec2b09cd7dc2b1e87a0fc6f25af8024fdbf6f57
+    home: https://github.com/RasaHQ/rasa-x-helm
+    icon: https://rasa.com/static/rasa-logo-square-ef3444fc36faec97ae8bd7bfb568996d.svg
+    keywords:
+    - Rasa
+    - AI Assistants
+    - Chatbot
+    - Rasa X
+    maintainers:
+    - email: tom@rasa.com
+      name: tmbo
+      url: https://rasa.com
+    name: rasa-x
+    urls:
+    - https://github.com/RasaHQ/rasa-x-helm/releases/download/rasa-x-1.1.3/rasa-x-1.1.3.tgz
+    version: 1.1.3
+  - apiVersion: v1
+    appVersion: 0.25.1
+    created: "2020-02-27T09:23:53.286310109Z"
+    description: Rasa X Helm chart for Kubernetes / Openshift
+    digest: d403855ce0f12194e9b5c5a904882f633eacb9f3a683eb358931104aa44aa59c
+    home: https://github.com/RasaHQ/rasa-x-helm
+    icon: https://rasa.com/static/rasa-logo-square-ef3444fc36faec97ae8bd7bfb568996d.svg
+    keywords:
+    - Rasa
+    - AI Assistants
+    - Chatbot
+    - Rasa X
+    maintainers:
+    - email: tom@rasa.com
+      name: tmbo
+      url: https://rasa.com
+    name: rasa-x
+    urls:
+    - https://github.com/RasaHQ/rasa-x-helm/releases/download/rasa-x-1.1.2/rasa-x-1.1.2.tgz
+    version: 1.1.2
+  - apiVersion: v1
+    appVersion: 0.25.1
+    created: "2020-02-26T16:15:29.599334464Z"
+    description: Rasa X Helm chart for Kubernetes / Openshift
+    digest: 7e874ebec11b9c002c505bf49c600ffcec0c751ed6c2735223912073cb205a2d
+    home: https://github.com/RasaHQ/rasa-x-helm
+    icon: https://rasa.com/static/rasa-logo-square-ef3444fc36faec97ae8bd7bfb568996d.svg
+    keywords:
+    - Rasa
+    - AI Assistants
+    - Chatbot
+    - Rasa X
+    maintainers:
+    - email: tom@rasa.com
+      name: tmbo
+      url: https://rasa.com
+    name: rasa-x
+    urls:
+    - https://github.com/RasaHQ/rasa-x-helm/releases/download/rasa-x-1.1.1/rasa-x-1.1.1.tgz
+    version: 1.1.1
+  - apiVersion: v1
+    appVersion: 0.25.1
+    created: "2020-02-24T08:04:53.848767621Z"
+    description: Rasa X Helm chart for Kubernetes / Openshift
+    digest: b4095087705f380dd550ecc1f12795778a4957ae8e80e93288c83de72c486478
+    home: https://github.com/RasaHQ/rasa-x-helm
+    icon: https://rasa.com/static/rasa-logo-square-ef3444fc36faec97ae8bd7bfb568996d.svg
+    keywords:
+    - Rasa
+    - AI Assistants
+    - Chatbot
+    - Rasa X
+    maintainers:
+    - email: tom@rasa.com
+      name: tmbo
+      url: https://rasa.com
+    name: rasa-x
+    urls:
+    - https://github.com/RasaHQ/rasa-x-helm/releases/download/rasa-x-1.1.0/rasa-x-1.1.0.tgz
+    version: 1.1.0
+  - apiVersion: v1
+    appVersion: 0.25.1
+    created: "2020-02-13T12:34:13.069574207Z"
+    description: Rasa X Helm chart for Kubernetes / Openshift
+    digest: 63a32629feb54700a9a37ca0ee53093f9d41207eb5514facc9e27b66cf281155
+    home: https://github.com/RasaHQ/rasa-x-helm
+    icon: https://rasa.com/static/rasa-logo-square-ef3444fc36faec97ae8bd7bfb568996d.svg
+    keywords:
+    - Rasa
+    - AI Assistants
+    - Chatbot
+    - Rasa X
+    maintainers:
+    - email: tom@rasa.com
+      name: tmbo
+      url: https://rasa.com
+    name: rasa-x
+    urls:
+    - https://github.com/RasaHQ/rasa-x-helm/releases/download/rasa-x-1.0.7/rasa-x-1.0.7.tgz
+    version: 1.0.7
+  - apiVersion: v1
+    appVersion: 0.25.1
+    created: "2020-02-10T13:33:55.342356126Z"
+    description: Rasa X Helm chart for Kubernetes / Openshift
+    digest: c3c5e40de50f75812c1c117c3e996a7c364d94aef497bea61677ef7ea6dc2a39
+    home: https://github.com/RasaHQ/rasa-x-helm
+    icon: https://rasa.com/static/rasa-logo-square-ef3444fc36faec97ae8bd7bfb568996d.svg
+    keywords:
+    - Rasa
+    - AI Assistants
+    - Chatbot
+    - Rasa X
+    maintainers:
+    - email: tom@rasa.com
+      name: tmbo
+      url: https://rasa.com
+    name: rasa-x
+    urls:
+    - https://github.com/RasaHQ/rasa-x-helm/releases/download/rasa-x-1.0.6/rasa-x-1.0.6.tgz
+    version: 1.0.6
+  - apiVersion: v1
+    appVersion: 0.25.0
+    created: "2020-02-10T13:04:41.447635758Z"
+    description: Rasa X Helm chart for Kubernetes / Openshift
+    digest: 2d23deb123734e9ee30663c7d5accf797aab6756777a51fb22d0e5a495570eea
+    home: https://github.com/RasaHQ/rasa-x-helm
+    icon: https://rasa.com/static/rasa-logo-square-ef3444fc36faec97ae8bd7bfb568996d.svg
+    keywords:
+    - Rasa
+    - AI Assistants
+    - Chatbot
+    - Rasa X
+    maintainers:
+    - email: tom@rasa.com
+      name: tmbo
+      url: https://rasa.com
+    name: rasa-x
+    urls:
+    - https://github.com/RasaHQ/rasa-x-helm/releases/download/rasa-x-1.0.5/rasa-x-1.0.5.tgz
+    version: 1.0.5
+  - apiVersion: v1
+    appVersion: 0.25.0
+    created: "2020-02-05T17:50:15.047231689Z"
+    description: Rasa X Helm chart for Kubernetes / Openshift
+    digest: b16ea7020ad464a5a8b51c3ac5da3b1bff17cb37e2ad3deb931d20a4f4d49cbc
+    home: https://github.com/RasaHQ/rasa-x-helm
+    icon: https://rasa.com/static/rasa-logo-square-ef3444fc36faec97ae8bd7bfb568996d.svg
+    keywords:
+    - Rasa
+    - AI Assistants
+    - Chatbot
+    - Rasa X
+    maintainers:
+    - email: tom@rasa.com
+      name: tmbo
+      url: https://rasa.com
+    name: rasa-x
+    urls:
+    - https://github.com/RasaHQ/rasa-x-helm/releases/download/rasa-x-1.0.4/rasa-x-1.0.4.tgz
+    version: 1.0.4
+  - apiVersion: v1
+    appVersion: 0.24.1
+    created: "2020-01-23T14:37:20.989030522Z"
+    description: Rasa X Helm chart for Kubernetes / Openshift
+    digest: 7d3dee692c111b2aa92e655b208bec0d89a1a662d6c74830b3a4fcfe13e4100b
+    home: https://github.com/RasaHQ/rasa-x-helm
+    icon: https://rasa.com/static/rasa-logo-square-ef3444fc36faec97ae8bd7bfb568996d.svg
+    keywords:
+    - Rasa
+    - AI Assistants
+    - Chatbot
+    - Rasa X
+    maintainers:
+    - email: tom@rasa.com
+      name: tmbo
+      url: https://rasa.com
+    name: rasa-x
+    urls:
+    - https://github.com/RasaHQ/rasa-x-helm/releases/download/rasa-x-1.0.3/rasa-x-1.0.3.tgz
+    version: 1.0.3
+  - apiVersion: v1
+    appVersion: 0.24.1
+    created: "2020-01-23T10:03:32.790236222Z"
+    description: Rasa X Helm chart for Kubernetes / Openshift
+    digest: 0f8845371256e7e654ae7d5fc6cffe8a7b3a004611f837a2268f844b79d446d9
+    home: https://github.com/RasaHQ/rasa-x-helm
+    icon: https://rasa.com/static/rasa-logo-square-ef3444fc36faec97ae8bd7bfb568996d.svg
+    keywords:
+    - Rasa
+    - AI Assistants
+    - Chatbot
+    - Rasa X
+    maintainers:
+    - email: tom@rasa.com
+      name: tmbo
+      url: https://rasa.com
+    name: rasa-x
+    urls:
+    - https://github.com/RasaHQ/rasa-x-helm/releases/download/rasa-x-1.0.2/rasa-x-1.0.2.tgz
+    version: 1.0.2
+  - apiVersion: v1
+    appVersion: 0.24.1
+    created: "2020-01-23T08:34:26.533520548Z"
+    description: Rasa X Helm chart for Kubernetes / Openshift
+    digest: c8aaf1ee9983a26af0d9c613dc97c6ff423a929dd9f4b95472f48ea9810a5b2d
+    home: https://github.com/RasaHQ/rasa-x-helm
+    icon: https://rasa.com/static/rasa-logo-square-ef3444fc36faec97ae8bd7bfb568996d.svg
+    keywords:
+    - Rasa
+    - AI Assistants
+    - Chatbot
+    - Rasa X
+    maintainers:
+    - email: tom@rasa.com
+      name: tmbo
+      url: https://rasa.com
+    name: rasa-x
+    urls:
+    - https://github.com/RasaHQ/rasa-x-helm/releases/download/rasa-x-1.0.1/rasa-x-1.0.1.tgz
+    version: 1.0.1
+  - apiVersion: v1
+    appVersion: 0.24.1
+    created: "2020-01-21T17:27:02.48900311Z"
+    description: Rasa X Helm chart for Kubernetes / Openshift
+    digest: 8b945fae7adec390f507b1c5cc4a1d00d1c3ee8003b4145d48542ab713a08ba3
+    home: https://github.com/RasaHQ/rasa-x-helm
+    icon: https://rasa.com/static/rasa-logo-square-ef3444fc36faec97ae8bd7bfb568996d.svg
+    keywords:
+    - Rasa
+    - AI Assistants
+    - Chatbot
+    - Rasa X
+    maintainers:
+    - email: tom@rasa.com
+      name: tmbo
+      url: https://rasa.com
+    name: rasa-x
+    urls:
+    - https://github.com/RasaHQ/rasa-x-helm/releases/download/rasa-x-1.0.0/rasa-x-1.0.0.tgz
+    version: 1.0.0
+  - apiVersion: v1
+    appVersion: 0.24.1
+    created: "2020-01-21T14:46:14.615370077Z"
+    description: Rasa X Helm chart for Kubernetes / Openshift
+    digest: 7058430be96929d927b0c63d5eb4921b20ef210832dcffe05b0e8627e203b442
+    home: https://github.com/RasaHQ/rasa-x-helm
+    icon: https://rasa.com/static/rasa-logo-square-ef3444fc36faec97ae8bd7bfb568996d.svg
+    keywords:
+    - Rasa
+    - AI Assistants
+    - Chatbot
+    - Rasa X
+    maintainers:
+    - email: tom@rasa.com
+      name: tmbo
+      url: https://rasa.com
+    name: rasa-x
+    urls:
+    - https://github.com/RasaHQ/rasa-x-helm/releases/download/rasa-x-0.24.4/rasa-x-0.24.4.tgz
+    version: 0.24.4
+generated: "2020-01-21T14:46:14.436911256Z"
